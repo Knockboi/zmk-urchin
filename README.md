@@ -19,7 +19,7 @@ This layout is inspired by [Seniply by Stevep99](https://stevep99.github.io/seni
 [See it in action on YouTube!](https://youtu.be/IZ83uU0ltaE)
 <div align="center">
   
-  [my layout](https://github.com/user-attachments/assets/3489d1a7-d545-4be3-aeb1-568a1915a68f)
+  ![my layout](https://github.com/user-attachments/assets/3489d1a7-d545-4be3-aeb1-568a1915a68f)
   
 </div>
 
