@@ -110,7 +110,7 @@
 		ext_layer {
 			label = "Mods";
 			bindings = <
-			&kp ESC  &kp C_PREV &kp C_PP  &kp C_NEXT  &kp C_PAUSE    		&kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
+			&kp ESC  &kp LC(W) &kp LC(Y)  &kp LC(R)  &kp LC(T)   		&kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
 			&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp LC(A)			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
 			&kp LC(Z)  &kp LC(X) &kp LC(C) &kp TAB   &kp LC(V)          		&kp LC(BSPC) &kp BSPC &trans &trans  &trans
 								  &trans &kp LCTRL    &kp ENTER  &mo FNC 
@@ -121,7 +121,7 @@
 		fnc_layer {
 			label = "FRow";
 			bindings = <
-			&none &none &kp UP &none &none				          &none &none &none &none &none 
+			&none &none &kp UP &none &none				          &none &none LC(LS(N)) &none &none 
 			&sk LALT &kp LEFT &kp DOWN &kp RIGHT &kp RALT     &kp F11 &kp F12  &kp PRINTSCREEN &trans &trans
 			&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
 							  &none &none              &none &none  
