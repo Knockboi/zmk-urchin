@@ -15,7 +15,7 @@
 #define EXT 2
 #define FNC 3
 #define SYM2 4
-#define GAMING 5
+#define ACCENT 5
 #define SETTINGS 6
 // -----------------
 
@@ -58,7 +58,7 @@
 		combo_accent {
 			timeout-ms = <200>;
 			key-positions = <32 33>;
-			bindings = <&tog GAMING>;
+			bindings = <&mo ACCENT>;
 		};
 		// internal-left & external-right thumb keys
 		combo_sym2 {
@@ -140,8 +140,8 @@
 		};
 
 		// Layer made to lock into traditional gaming mode.
-		gaming_layer {
-			label = "gaming";
+		accent_layer {
+			label = "accent";
 			bindings = <
 			&kp TAB &kp Q &kp W &kp E &kp R                         &none &none &none &none &none 
 			&kp LSHIFT &kp A &kp S &kp D &kp F 		        &none &none &none &none &none
