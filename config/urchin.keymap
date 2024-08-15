@@ -8,14 +8,14 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-#include "keymap_italian.h"
+// #include "keymap_italian.h"
 // Layer definitions
 #define BASE 0
 #define SYM 1
 #define EXT 2
 #define FNC 3
 #define SYM2 4
-#define ACCENT 5
+#define GAME 5
 #define SETTINGS 6
 // -----------------
 
@@ -55,10 +55,10 @@
 	combos {
 		compatible = "zmk,combos";
 		// both right thumb keys
-		combo_accent {
+		combo_game {
 			timeout-ms = <200>;
 			key-positions = <32 33>;
-			bindings = <&mo ACCENT>;
+			bindings = <&tog GAME>;
 		};
 		// internal-left & external-right thumb keys
 		combo_sym2 {
@@ -140,8 +140,8 @@
 		};
 
 		// Layer made to lock into traditional gaming mode.
-		accent_layer {
-			label = "accent";
+		game_layer {
+			label = "Game";
 			bindings = <
 			&kp TAB &kp Q &kp W &kp E &kp R                         &none &none &none &none &none 
 			&kp LSHIFT &kp A &kp S &kp D &kp F 		        &none &none &none &none &none
