@@ -144,8 +144,8 @@
 			label = "Game";
 			bindings = <
 			&kp TAB &kp Q &kp W &kp E &kp R                         &none &none &none &none &none 
-			&kp LSHIFT &kp A &kp S &kp D &kp F 		        &none &none &none &none &none
-			&kp LCTRL &kp Z & X &kp C &kp V                     &none &none &none &none &none
+			&sk LSHIFT &kp A &kp S &kp D &kp F 		        &none &none &none &none &none
+			&sk LCTRL &kp Z & X &kp C &kp V                     	&none &none &none &none &none
 						&none &kp SPACE                         &none &none 
 			>;
 		};
